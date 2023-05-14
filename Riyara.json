@@ -1,0 +1,102 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Riyara",
+				"abbreviation": "RIY",
+				"full": "Riyara",
+				"url": "https://github.com/Orion-121/Riyara",
+				"authors": [
+					"Nick P",
+					"Andrew A"
+				],
+				"convertedBy": []
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Axe of the Earth",
+			"source": "ChristmasMagicItems",
+			"baseItem": "battleaxe|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"While you are wielding this weapon, as an action you may slam the axe into the ground. You and all creatures adjacent must succeed a DC 14 Strength saving throw or be knocked {@condition prone}."
+			]
+		}
+		],
+	"spell": [
+		{
+			"name": "Soaring Harmony",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You sing a song that calls two tiny songbird spirits from the Faewilds to aid you.",
+				"Target a creature you can see within range and choose Villainize or Idolize. ",
+				"• A creature Villainized is attacked and must make a Dexterity saving throw, or take {@damage 2d4} piercing damage. The target gains no benefit from cover for this saving throw.",
+				"• A creature Idolised will be aided and invigorated by the birds. If the target makes an attack roll before your next turn, their first roll is made with advantage."
+			],
+			"source": "Riyara",
+			"components": {
+				"v": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The spell's damage increases by {@dice 2d4} when you reach 5th level ({@dice 4d4}), 11th level ({@dice 6d4}), and 17th level ({@dice 8d4})."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST"
+			]
+		}
+	]
+}
