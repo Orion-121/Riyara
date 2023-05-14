@@ -14,6 +14,50 @@
 			}
 		]
 	},
+	"item": [
+		{
+			"name": "Chime of Echoes",
+			"wondrous": true,
+			"type": "SCF",
+			"rarity": "rare",
+			"tier":	"major",
+			"source": "Riyara",
+			"reqAttune": "by a bard",
+			"weight": 1,
+			"entries": [
+				"Whenever a player rolls a 1 or 2 with one of your Bardic Inspiration dice you regain that die.",
+				"Your Cutting Words ability can target a creature you can't see as long as you can hear them.",
+				"Chime of Echoes counts as a +1 Bardic spellcasting focus."
+			]
+		},
+		{
+			"name": "Amulet of Spores or something",
+			"wondrous": true,
+			"rarity": "rare",
+			"tier":	"major",
+			"source": "Riyara",
+			"reqAttune": "by a druid",
+			"weight": 1,
+			"entries": [
+				"Creatures you animate with Fungal Infestation gain Halo of Spores.",
+				"You can awaken your Symbiotic Entity as a Bonus Action."
+			]
+		},
+		{
+			"name": "Instrument of the Hokage",
+			"wondrous": true,
+			"type": "SCF",
+			"rarity": "rare",
+			"tier":	"major",
+			"source": "Riyara",
+			"reqAttune": "by a bard",
+			"weight": 1,
+			"entries": [
+				"When you cast a Bard spell using this focus you may roll {@dice 1d4} and it to the DC of that spell. Any creature affected by the spell makes its saving throw with disadvantage.",
+				"After you use this ability it cannot be used again until the next dawn."
+			]
+		}
+],
 	"spell": [
 		{
 			"name": "Soaring Harmony",
