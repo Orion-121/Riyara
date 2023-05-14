@@ -14,30 +14,6 @@
 			}
 		]
 	},
-	"item": [
-		{
-			"name": "Axe of the Earth",
-			"source": "ChristmasMagicItems",
-			"baseItem": "battleaxe|PHB",
-			"type": "M",
-			"rarity": "rare",
-			"reqAttune": true,
-			"weight": 4,
-			"value": 1000,
-			"weaponCategory": "martial",
-			"property": [
-				"V"
-			],
-			"dmg1": "1d8",
-			"dmgType": "S",
-			"dmg2": "1d10",
-			"axe": true,
-			"weapon": true,
-			"entries": [
-				"While you are wielding this weapon, as an action you may slam the axe into the ground. You and all creatures adjacent must succeed a DC 14 Strength saving throw or be knocked {@condition prone}."
-			]
-		}
-		],
 	"spell": [
 		{
 			"name": "Soaring Harmony",
