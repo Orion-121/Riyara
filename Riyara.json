@@ -26,8 +26,8 @@
 			"weight": 1,
 			"entries": [
 				"While holding this chime, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
-				"Whenever one of your Bardic Inspiration dice fails to change the outcome of an ability check, attack roll, or saving throw roll that die an additional time, but do not add it to the previous roll. If the second roll is even you regain that die.",
-				"Your Cutting Words ability can target a creature you can't see as long as you can hear them."
+				"Abilities that use you Bardic Inspiration dice can target creatures you can't see as long as you can hear them.",
+				"Whenever one of your Bardic Inspiration dice fails to change the outcome of an ability check, attack roll, or saving throw roll that die an additional time, but do not add it to the previous roll. If the second roll is even you regain that die."	
 			]
 		},
 		{
